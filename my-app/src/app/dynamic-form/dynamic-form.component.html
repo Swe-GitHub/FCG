@@ -1,0 +1,12 @@
+<div [formGroup]="form">
+    <label [attr.for]="obj.id">{{obj.name}}</label>
+
+    <div [ngSwitch]="obj.fieldType">
+
+        <input *ngSwitchCase="'text'" [formControlName]="obj.id" [id]="obj.id" type="textbox">
+        <input *ngSwitchCase="'number'" [formControlName]="obj.id" [id]="obj.id" type="number">
+        <input *ngSwitchCase="'date'" [formControlName]="obj.id" [id]="obj.id" type="date">
+
+    </div>
+
+</div>

@@ -1,0 +1,57 @@
+.content
+{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  *{
+      box-sizing: border-box;
+      font-family: cursive;
+  }
+  label{
+      margin-right: 20px;
+      margin-top: 10px;
+      color: rebeccapurple;
+  }
+  .form-container{
+    display: grid;
+    
+    border-radius: 6px;
+    padding: 10px 30px 30px 30px;
+    box-shadow: 1px 4px 4px 3px rgb(199 194 199);
+    position: relative;
+    top:23px;
+  }
+  #buttonBox{
+    position: relative;
+    top: 12px;
+  }
+ 
+  input{
+      border: none;
+      border-bottom: 2px solid rgb(44, 9, 78);
+
+  }
+  input:focus-visible{
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 3px rgb(199 194 199);
+    outline: rebeccapurple solid 1px;
+    border-bottom: rebeccapurple;
+  }
+  button{
+    background-color: #05b105;
+    color: white;
+    border: none;
+    height: 34px;
+    border-radius: 6px;
+    margin-left: 27px;
+    cursor: pointer;
+
+  }
+  button:hover{
+    background-color: #2ecd2e;
+  }
+  #surveyType{
+      margin-bottom: 10px;
+  }

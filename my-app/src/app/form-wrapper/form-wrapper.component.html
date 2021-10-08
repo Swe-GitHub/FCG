@@ -1,0 +1,7 @@
+<div>
+    <form  [formGroup]="form">
+      <div *ngFor="let obj of objects" class="form-row">
+        <app-dynamic-form [obj]="obj" [form]="form" [isReset]="isReset"></app-dynamic-form>
+      </div>
+    </form>
+  </div>

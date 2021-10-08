@@ -1,0 +1,19 @@
+
+  form{
+    border-radius: 6px;
+    padding: 30px;
+   
+    box-shadow: 1px 4px 4px 3px rgb(199 194 199);
+  }
+  input{
+      border: none;
+      border-bottom: 2px solid rgb(44, 9, 78);
+      width: 100%;
+
+  }
+  input:focus-visible{
+    border-radius: 6px;
+    box-shadow: 1px 1px 4px 3px rgb(199 194 199);
+    outline: rebeccapurple solid 1px;
+    border-bottom: rebeccapurple;
+  }
